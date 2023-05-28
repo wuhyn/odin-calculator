@@ -16,15 +16,18 @@
 
 .calculator-screen{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #A7B3C1;
     border: 20px solid #244366;
     font-family: 'Mukta', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     height: 100px;
 }
 
 .calculator-screen p {
-
+    padding-right: 5%;
+    /* font-size: 40px; */
 }
 
 .calculator-grid {
